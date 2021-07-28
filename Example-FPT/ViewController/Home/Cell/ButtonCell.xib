@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="ButtonCell" customModule="Example_FPT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="221"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="221"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd2-PR-Kjn">
+                        <rect key="frame" x="103.5" y="89" width="191" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Sd2-PR-Kjn" secondAttribute="height" multiplier="159:36" id="GQ1-T0-X1l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <state key="normal" title="   ホームを並び替える   "/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Sd2-PR-Kjn" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="8UK-Ce-tIA"/>
+                <constraint firstItem="Sd2-PR-Kjn" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="8ub-wf-p2c"/>
+            </constraints>
+            <size key="customSize" width="398" height="221"/>
+            <connections>
+                <outlet property="btnRegister" destination="Sd2-PR-Kjn" id="iCB-eZ-zQP"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="153"/>
+        </collectionViewCell>
+    </objects>
+</document>

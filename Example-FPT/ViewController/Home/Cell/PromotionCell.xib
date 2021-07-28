@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PromotionCell" customModule="Example_FPT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="451" height="272"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promotion-bg" translatesAutoresizingMaskIntoConstraints="NO" id="GE0-K3-lgC">
+                        <rect key="frame" x="-25" y="-15" width="506" height="317"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-light" translatesAutoresizingMaskIntoConstraints="NO" id="R7g-6M-Gue">
+                        <rect key="frame" x="10" y="10" width="31.5" height="31.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="R7g-6M-Gue" secondAttribute="height" multiplier="1:1" id="FOy-0O-Fwf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ソフトバンクでんき" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yac-D1-BH0">
+                        <rect key="frame" x="51.5" y="10" width="165.5" height="31.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zJ-wR-lg6">
+                        <rect key="frame" x="0.0" y="206.5" width="451" height="65.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="期間限定キャンペーン!  2021 年9日30日まで" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pD-HW-eaq">
+                                <rect key="frame" x="20" y="0.0" width="172.5" height="65.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kap-ej-snJ">
+                                <rect key="frame" x="274" y="11" width="157" height="43.5"/>
+                                <color key="backgroundColor" red="1" green="0.39215683940000001" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Kap-ej-snJ" secondAttribute="height" multiplier="123:34" id="NAf-A1-QcO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="申し込む">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kap-ej-snJ" firstAttribute="top" secondItem="5zJ-wR-lg6" secondAttribute="top" constant="11" id="AsE-ss-qyB"/>
+                            <constraint firstItem="6pD-HW-eaq" firstAttribute="top" secondItem="5zJ-wR-lg6" secondAttribute="top" id="Cfv-3f-LqU"/>
+                            <constraint firstAttribute="width" secondItem="5zJ-wR-lg6" secondAttribute="height" multiplier="345:50" id="FSO-3k-PcY"/>
+                            <constraint firstItem="6pD-HW-eaq" firstAttribute="leading" secondItem="5zJ-wR-lg6" secondAttribute="leading" constant="20" id="GPS-uh-4pZ"/>
+                            <constraint firstAttribute="bottom" secondItem="6pD-HW-eaq" secondAttribute="bottom" id="SJM-LI-dJ8"/>
+                            <constraint firstAttribute="bottom" secondItem="Kap-ej-snJ" secondAttribute="bottom" constant="11" id="hfS-1f-j4m"/>
+                            <constraint firstAttribute="trailing" secondItem="Kap-ej-snJ" secondAttribute="trailing" constant="20" id="ocM-cA-wv2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAi-Oh-Jft">
+                        <rect key="frame" x="0.0" y="51.5" width="451" height="1"/>
+                        <color key="backgroundColor" red="0.90780407190000001" green="0.90780407190000001" blue="0.90780407190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Uvq-VU-0mU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="R7g-6M-Gue" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="2dr-J9-eKq"/>
+                <constraint firstItem="yac-D1-BH0" firstAttribute="leading" secondItem="R7g-6M-Gue" secondAttribute="trailing" constant="10" id="9ok-Cb-cuT"/>
+                <constraint firstItem="5zJ-wR-lg6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9tl-ij-yqh"/>
+                <constraint firstItem="R7g-6M-Gue" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="AFB-M0-kiw"/>
+                <constraint firstItem="wAi-Oh-Jft" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GYU-jd-nBz"/>
+                <constraint firstAttribute="bottom" secondItem="5zJ-wR-lg6" secondAttribute="bottom" id="Gmk-E7-TmC"/>
+                <constraint firstAttribute="bottom" secondItem="GE0-K3-lgC" secondAttribute="bottom" constant="-30" id="HdC-iI-0cZ"/>
+                <constraint firstItem="GE0-K3-lgC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="-15" id="OQ4-XL-n2K"/>
+                <constraint firstItem="yac-D1-BH0" firstAttribute="height" secondItem="R7g-6M-Gue" secondAttribute="height" id="RuU-u0-k5V"/>
+                <constraint firstAttribute="trailing" secondItem="wAi-Oh-Jft" secondAttribute="trailing" id="TVx-D3-RwE"/>
+                <constraint firstItem="yac-D1-BH0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="TnI-32-pgF"/>
+                <constraint firstItem="R7g-6M-Gue" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.07" id="Uar-gT-E6h"/>
+                <constraint firstItem="wAi-Oh-Jft" firstAttribute="top" secondItem="yac-D1-BH0" secondAttribute="bottom" constant="10" id="WL6-A9-EXR"/>
+                <constraint firstAttribute="trailing" secondItem="GE0-K3-lgC" secondAttribute="trailing" constant="-30" id="XTJ-yQ-Ym2"/>
+                <constraint firstItem="GE0-K3-lgC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="-25" id="k1s-6j-m7Z"/>
+                <constraint firstAttribute="trailing" secondItem="5zJ-wR-lg6" secondAttribute="trailing" id="re3-fZ-niF"/>
+            </constraints>
+            <size key="customSize" width="451" height="272"/>
+            <connections>
+                <outlet property="btnRegister" destination="Kap-ej-snJ" id="L2N-cc-a6i"/>
+            </connections>
+            <point key="canvasLocation" x="-184.78260869565219" y="141.29464285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic-light" width="22" height="22"/>
+        <image name="promotion-bg" width="381" height="276"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

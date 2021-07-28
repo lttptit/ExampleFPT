@@ -3,19 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91594EF9CAD7097C0BC8BD6F /* Pods_Example_FPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EDA7E6550200A664A900CC /* Pods_Example_FPT.framework */; };
+		D7056F3626AF02D700D2F79E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7056F3426AF02D700D2F79E /* HomeVC.swift */; };
+		D7056F3726AF02D700D2F79E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7056F3526AF02D700D2F79E /* HomeVC.xib */; };
+		D7056F3F26AF0FCF00D2F79E /* TotalPaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7056F3D26AF0FCF00D2F79E /* TotalPaymentCell.swift */; };
+		D7056F4026AF0FCF00D2F79E /* TotalPaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7056F3E26AF0FCF00D2F79E /* TotalPaymentCell.xib */; };
 		D75DBCFB26AAD72F0061330B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75DBCFA26AAD72F0061330B /* AppDelegate.swift */; };
 		D75DBCFD26AAD72F0061330B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75DBCFC26AAD72F0061330B /* SceneDelegate.swift */; };
 		D75DBCFF26AAD72F0061330B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75DBCFE26AAD72F0061330B /* ViewController.swift */; };
 		D75DBD0226AAD72F0061330B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75DBD0026AAD72F0061330B /* Main.storyboard */; };
 		D75DBD0426AAD7300061330B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75DBD0326AAD7300061330B /* Assets.xcassets */; };
 		D75DBD0726AAD7300061330B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75DBD0526AAD7300061330B /* LaunchScreen.storyboard */; };
+		D7870D6B26B0FE990051F827 /* StorageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D6926B0FE990051F827 /* StorageCell.swift */; };
+		D7870D6C26B0FE990051F827 /* StorageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D6A26B0FE990051F827 /* StorageCell.xib */; };
+		D7870D6F26B17D900051F827 /* PayPayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D6D26B17D900051F827 /* PayPayCell.swift */; };
+		D7870D7026B17D900051F827 /* PayPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D6E26B17D900051F827 /* PayPayCell.xib */; };
+		D7870D7326B17DBD0051F827 /* PointTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D7126B17DBD0051F827 /* PointTCell.swift */; };
+		D7870D7426B17DBD0051F827 /* PointTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D7226B17DBD0051F827 /* PointTCell.xib */; };
+		D7870D7726B17DD60051F827 /* VisaCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D7526B17DD60051F827 /* VisaCardCell.swift */; };
+		D7870D7826B17DD60051F827 /* VisaCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D7626B17DD60051F827 /* VisaCardCell.xib */; };
+		D7870D7B26B1A77E0051F827 /* ExtColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D7A26B1A77E0051F827 /* ExtColor.swift */; };
+		D7870D7E26B1B1F70051F827 /* PromotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D7C26B1B1F70051F827 /* PromotionCell.swift */; };
+		D7870D7F26B1B1F70051F827 /* PromotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D7D26B1B1F70051F827 /* PromotionCell.xib */; };
+		D7870D8226B1BD810051F827 /* SoftBankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8026B1BD810051F827 /* SoftBankCell.swift */; };
+		D7870D8326B1BD810051F827 /* SoftBankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8126B1BD810051F827 /* SoftBankCell.xib */; };
+		D7870D8626B1C2A70051F827 /* SoftBankMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8426B1C2A70051F827 /* SoftBankMapCell.swift */; };
+		D7870D8726B1C2A70051F827 /* SoftBankMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8526B1C2A70051F827 /* SoftBankMapCell.xib */; };
+		D7870D8A26B1C2B80051F827 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8826B1C2B80051F827 /* MessageCell.swift */; };
+		D7870D8B26B1C2B80051F827 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8926B1C2B80051F827 /* MessageCell.xib */; };
+		D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8C26B1C79D0051F827 /* ButtonCell.swift */; };
+		D7870D8F26B1C79D0051F827 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8D26B1C79D0051F827 /* ButtonCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66EDA7E6550200A664A900CC /* Pods_Example_FPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_FPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8F939D6B8B3986BDC2DDD8 /* Pods-Example-FPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-FPT.debug.xcconfig"; path = "Target Support Files/Pods-Example-FPT/Pods-Example-FPT.debug.xcconfig"; sourceTree = "<group>"; };
+		D7056F3426AF02D700D2F79E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D7056F3526AF02D700D2F79E /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		D7056F3D26AF0FCF00D2F79E /* TotalPaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPaymentCell.swift; sourceTree = "<group>"; };
+		D7056F3E26AF0FCF00D2F79E /* TotalPaymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalPaymentCell.xib; sourceTree = "<group>"; };
 		D75DBCF726AAD72F0061330B /* Example-FPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-FPT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75DBCFA26AAD72F0061330B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75DBCFC26AAD72F0061330B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,26 @@
 		D75DBD0326AAD7300061330B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75DBD0626AAD7300061330B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75DBD0826AAD7300061330B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7870D6926B0FE990051F827 /* StorageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCell.swift; sourceTree = "<group>"; };
+		D7870D6A26B0FE990051F827 /* StorageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StorageCell.xib; sourceTree = "<group>"; };
+		D7870D6D26B17D900051F827 /* PayPayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCell.swift; sourceTree = "<group>"; };
+		D7870D6E26B17D900051F827 /* PayPayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayPayCell.xib; sourceTree = "<group>"; };
+		D7870D7126B17DBD0051F827 /* PointTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTCell.swift; sourceTree = "<group>"; };
+		D7870D7226B17DBD0051F827 /* PointTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointTCell.xib; sourceTree = "<group>"; };
+		D7870D7526B17DD60051F827 /* VisaCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCardCell.swift; sourceTree = "<group>"; };
+		D7870D7626B17DD60051F827 /* VisaCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisaCardCell.xib; sourceTree = "<group>"; };
+		D7870D7A26B1A77E0051F827 /* ExtColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtColor.swift; sourceTree = "<group>"; };
+		D7870D7C26B1B1F70051F827 /* PromotionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCell.swift; sourceTree = "<group>"; };
+		D7870D7D26B1B1F70051F827 /* PromotionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromotionCell.xib; sourceTree = "<group>"; };
+		D7870D8026B1BD810051F827 /* SoftBankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftBankCell.swift; sourceTree = "<group>"; };
+		D7870D8126B1BD810051F827 /* SoftBankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftBankCell.xib; sourceTree = "<group>"; };
+		D7870D8426B1C2A70051F827 /* SoftBankMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftBankMapCell.swift; sourceTree = "<group>"; };
+		D7870D8526B1C2A70051F827 /* SoftBankMapCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftBankMapCell.xib; sourceTree = "<group>"; };
+		D7870D8826B1C2B80051F827 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D7870D8926B1C2B80051F827 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		D7870D8C26B1C79D0051F827 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		D7870D8D26B1C79D0051F827 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		E4500C4BF10E18263E79B122 /* Pods-Example-FPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-FPT.release.xcconfig"; path = "Target Support Files/Pods-Example-FPT/Pods-Example-FPT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91594EF9CAD7097C0BC8BD6F /* Pods_Example_FPT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6352F36413F09717DC5A26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EDA7E6550200A664A900CC /* Pods_Example_FPT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD291DE42F9F30B84F84E6D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8F939D6B8B3986BDC2DDD8 /* Pods-Example-FPT.debug.xcconfig */,
+				E4500C4BF10E18263E79B122 /* Pods-Example-FPT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7056F3826AF0D7200D2F79E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D7056F3D26AF0FCF00D2F79E /* TotalPaymentCell.swift */,
+				D7056F3E26AF0FCF00D2F79E /* TotalPaymentCell.xib */,
+				D7870D6926B0FE990051F827 /* StorageCell.swift */,
+				D7870D6A26B0FE990051F827 /* StorageCell.xib */,
+				D7870D6D26B17D900051F827 /* PayPayCell.swift */,
+				D7870D6E26B17D900051F827 /* PayPayCell.xib */,
+				D7870D7126B17DBD0051F827 /* PointTCell.swift */,
+				D7870D7226B17DBD0051F827 /* PointTCell.xib */,
+				D7870D7526B17DD60051F827 /* VisaCardCell.swift */,
+				D7870D7626B17DD60051F827 /* VisaCardCell.xib */,
+				D7870D7C26B1B1F70051F827 /* PromotionCell.swift */,
+				D7870D7D26B1B1F70051F827 /* PromotionCell.xib */,
+				D7870D8026B1BD810051F827 /* SoftBankCell.swift */,
+				D7870D8126B1BD810051F827 /* SoftBankCell.xib */,
+				D7870D8426B1C2A70051F827 /* SoftBankMapCell.swift */,
+				D7870D8526B1C2A70051F827 /* SoftBankMapCell.xib */,
+				D7870D8826B1C2B80051F827 /* MessageCell.swift */,
+				D7870D8926B1C2B80051F827 /* MessageCell.xib */,
+				D7870D8C26B1C79D0051F827 /* ButtonCell.swift */,
+				D7870D8D26B1C79D0051F827 /* ButtonCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		D75DBCEE26AAD72F0061330B = {
 			isa = PBXGroup;
 			children = (
 				D75DBCF926AAD72F0061330B /* Example-FPT */,
 				D75DBCF826AAD72F0061330B /* Products */,
+				BD291DE42F9F30B84F84E6D5 /* Pods */,
+				6352F36413F09717DC5A26D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +153,11 @@
 		D75DBCF926AAD72F0061330B /* Example-FPT */ = {
 			isa = PBXGroup;
 			children = (
+				D7870D7926B1A3D30051F827 /* Extension */,
+				D75DBD1126AAD77E0061330B /* Resource */,
+				D75DBD1026AAD77A0061330B /* Network */,
+				D75DBD0F26AAD7720061330B /* Lib */,
+				D75DBD0E26AAD7670061330B /* ViewController */,
 				D75DBCFA26AAD72F0061330B /* AppDelegate.swift */,
 				D75DBCFC26AAD72F0061330B /* SceneDelegate.swift */,
 				D75DBCFE26AAD72F0061330B /* ViewController.swift */,
@@ -67,6 +169,53 @@
 			path = "Example-FPT";
 			sourceTree = "<group>";
 		};
+		D75DBD0E26AAD7670061330B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC315326AC7EB600539517 /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D75DBD0F26AAD7720061330B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D75DBD1026AAD77A0061330B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D75DBD1126AAD77E0061330B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D7870D7926B1A3D30051F827 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7870D7A26B1A77E0051F827 /* ExtColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D7AC315326AC7EB600539517 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7056F3826AF0D7200D2F79E /* Cell */,
+				D7056F3426AF02D700D2F79E /* HomeVC.swift */,
+				D7056F3526AF02D700D2F79E /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D75DBD0B26AAD7300061330B /* Build configuration list for PBXNativeTarget "Example-FPT" */;
 			buildPhases = (
+				5715D6A7C77DF5760A6011C7 /* [CP] Check Pods Manifest.lock */,
 				D75DBCF326AAD72F0061330B /* Sources */,
 				D75DBCF426AAD72F0061330B /* Frameworks */,
 				D75DBCF526AAD72F0061330B /* Resources */,
+				FAA31BF358BB30B007CD0CF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +275,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7870D8326B1BD810051F827 /* SoftBankCell.xib in Resources */,
 				D75DBD0726AAD7300061330B /* LaunchScreen.storyboard in Resources */,
+				D7870D8726B1C2A70051F827 /* SoftBankMapCell.xib in Resources */,
+				D7870D8B26B1C2B80051F827 /* MessageCell.xib in Resources */,
+				D7870D6C26B0FE990051F827 /* StorageCell.xib in Resources */,
+				D7056F4026AF0FCF00D2F79E /* TotalPaymentCell.xib in Resources */,
+				D7870D7F26B1B1F70051F827 /* PromotionCell.xib in Resources */,
 				D75DBD0426AAD7300061330B /* Assets.xcassets in Resources */,
+				D7056F3726AF02D700D2F79E /* HomeVC.xib in Resources */,
+				D7870D7426B17DBD0051F827 /* PointTCell.xib in Resources */,
+				D7870D7026B17D900051F827 /* PayPayCell.xib in Resources */,
+				D7870D8F26B1C79D0051F827 /* ButtonCell.xib in Resources */,
+				D7870D7826B17DD60051F827 /* VisaCardCell.xib in Resources */,
 				D75DBD0226AAD72F0061330B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5715D6A7C77DF5760A6011C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-FPT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA31BF358BB30B007CD0CF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D75DBCF326AAD72F0061330B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7870D6F26B17D900051F827 /* PayPayCell.swift in Sources */,
+				D7870D7B26B1A77E0051F827 /* ExtColor.swift in Sources */,
+				D7870D8626B1C2A70051F827 /* SoftBankMapCell.swift in Sources */,
+				D7870D7326B17DBD0051F827 /* PointTCell.swift in Sources */,
 				D75DBCFF26AAD72F0061330B /* ViewController.swift in Sources */,
+				D7870D7726B17DD60051F827 /* VisaCardCell.swift in Sources */,
+				D7056F3626AF02D700D2F79E /* HomeVC.swift in Sources */,
+				D7870D7E26B1B1F70051F827 /* PromotionCell.swift in Sources */,
+				D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */,
 				D75DBCFB26AAD72F0061330B /* AppDelegate.swift in Sources */,
+				D7056F3F26AF0FCF00D2F79E /* TotalPaymentCell.swift in Sources */,
+				D7870D8226B1BD810051F827 /* SoftBankCell.swift in Sources */,
 				D75DBCFD26AAD72F0061330B /* SceneDelegate.swift in Sources */,
+				D7870D6B26B0FE990051F827 /* StorageCell.swift in Sources */,
+				D7870D8A26B1C2B80051F827 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +499,7 @@
 		};
 		D75DBD0C26AAD7300061330B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8F939D6B8B3986BDC2DDD8 /* Pods-Example-FPT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +519,7 @@
 		};
 		D75DBD0D26AAD7300061330B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4500C4BF10E18263E79B122 /* Pods-Example-FPT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

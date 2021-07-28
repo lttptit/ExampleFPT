@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Example_FPT" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionHome" destination="573-zb-yVd" id="VU2-JU-XPY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-home" translatesAutoresizingMaskIntoConstraints="NO" id="AVX-dU-YGL">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="573-zb-yVd">
+                    <rect key="frame" x="10" y="0.0" width="394" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gBa-II-ikZ">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="573-zb-yVd" secondAttribute="bottom" id="BAU-tv-pWB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="573-zb-yVd" secondAttribute="trailing" constant="10" id="EJA-o1-nug"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AVX-dU-YGL" secondAttribute="trailing" id="G38-IW-T14"/>
+                <constraint firstItem="573-zb-yVd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="HcH-tE-0F7"/>
+                <constraint firstAttribute="bottom" secondItem="AVX-dU-YGL" secondAttribute="bottom" id="fA1-Ge-5qy"/>
+                <constraint firstItem="573-zb-yVd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gJD-KH-5T6"/>
+                <constraint firstItem="AVX-dU-YGL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hgl-fG-yLS"/>
+                <constraint firstItem="AVX-dU-YGL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="liy-Wa-efu"/>
+            </constraints>
+            <point key="canvasLocation" x="133" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg-home" width="375" height="2266"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
