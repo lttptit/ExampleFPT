@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     @objc func openVC() {
-        let vc = HomeVC()
+        let vc = TransferVC()
         vc.modalTransitionStyle = .coverVertical
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true, completion: nil)

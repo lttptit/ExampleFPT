@@ -37,6 +37,21 @@
 		D7870D8B26B1C2B80051F827 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8926B1C2B80051F827 /* MessageCell.xib */; };
 		D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8C26B1C79D0051F827 /* ButtonCell.swift */; };
 		D7870D8F26B1C79D0051F827 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8D26B1C79D0051F827 /* ButtonCell.xib */; };
+		D7BD77E626B3A7020026E433 /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77E426B3A7020026E433 /* TransferVC.swift */; };
+		D7BD77E726B3A7020026E433 /* TransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77E526B3A7020026E433 /* TransferVC.xib */; };
+		D7BD77EA26B3D77C0026E433 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77E826B3D77C0026E433 /* SecondVC.swift */; };
+		D7BD77EB26B3D77C0026E433 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77E926B3D77C0026E433 /* SecondVC.xib */; };
+		D7BD77EE26B3DB460026E433 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77EC26B3DB460026E433 /* DataCell.swift */; };
+		D7BD77EF26B3DB460026E433 /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77ED26B3DB460026E433 /* DataCell.xib */; };
+		D7BD77F326B3DC410026E433 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77F226B3DC410026E433 /* ModelData.swift */; };
+		D7BD77F726B3E47E0026E433 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77F526B3E47E0026E433 /* FirstCell.swift */; };
+		D7BD77F826B3E47E0026E433 /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77F626B3E47E0026E433 /* FirstCell.xib */; };
+		D7BD77FB26B3E4E10026E433 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77F926B3E4E10026E433 /* SecondCell.swift */; };
+		D7BD77FC26B3E4E10026E433 /* SecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77FA26B3E4E10026E433 /* SecondCell.xib */; };
+		D7BD77FF26B3E4EF0026E433 /* ThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77FD26B3E4EF0026E433 /* ThirdCell.swift */; };
+		D7BD780026B3E4EF0026E433 /* ThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77FE26B3E4EF0026E433 /* ThirdCell.xib */; };
+		D7BD780326B3E4FC0026E433 /* FourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD780126B3E4FC0026E433 /* FourCell.swift */; };
+		D7BD780426B3E4FC0026E433 /* FourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD780226B3E4FC0026E433 /* FourCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +88,21 @@
 		D7870D8926B1C2B80051F827 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		D7870D8C26B1C79D0051F827 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		D7870D8D26B1C79D0051F827 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		D7BD77E426B3A7020026E433 /* TransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVC.swift; sourceTree = "<group>"; };
+		D7BD77E526B3A7020026E433 /* TransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferVC.xib; sourceTree = "<group>"; };
+		D7BD77E826B3D77C0026E433 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		D7BD77E926B3D77C0026E433 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		D7BD77EC26B3DB460026E433 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		D7BD77ED26B3DB460026E433 /* DataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCell.xib; sourceTree = "<group>"; };
+		D7BD77F226B3DC410026E433 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D7BD77F526B3E47E0026E433 /* FirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		D7BD77F626B3E47E0026E433 /* FirstCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		D7BD77F926B3E4E10026E433 /* SecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
+		D7BD77FA26B3E4E10026E433 /* SecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCell.xib; sourceTree = "<group>"; };
+		D7BD77FD26B3E4EF0026E433 /* ThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCell.swift; sourceTree = "<group>"; };
+		D7BD77FE26B3E4EF0026E433 /* ThirdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdCell.xib; sourceTree = "<group>"; };
+		D7BD780126B3E4FC0026E433 /* FourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCell.swift; sourceTree = "<group>"; };
+		D7BD780226B3E4FC0026E433 /* FourCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourCell.xib; sourceTree = "<group>"; };
 		E4500C4BF10E18263E79B122 /* Pods-Example-FPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-FPT.release.xcconfig"; path = "Target Support Files/Pods-Example-FPT/Pods-Example-FPT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +183,7 @@
 		D75DBCF926AAD72F0061330B /* Example-FPT */ = {
 			isa = PBXGroup;
 			children = (
+				D7BD77F026B3DC2E0026E433 /* Data */,
 				D7870D7926B1A3D30051F827 /* Extension */,
 				D75DBD1126AAD77E0061330B /* Resource */,
 				D75DBD1026AAD77A0061330B /* Network */,
@@ -172,6 +203,7 @@
 		D75DBD0E26AAD7670061330B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D7BD780526B3F9B50026E433 /* Example2 */,
 				D7AC315326AC7EB600539517 /* Home */,
 			);
 			path = ViewController;
@@ -214,6 +246,51 @@
 				D7056F3526AF02D700D2F79E /* HomeVC.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D7BD77F026B3DC2E0026E433 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77F126B3DC320026E433 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D7BD77F126B3DC320026E433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77F226B3DC410026E433 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7BD77F426B3E4710026E433 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77F526B3E47E0026E433 /* FirstCell.swift */,
+				D7BD77F626B3E47E0026E433 /* FirstCell.xib */,
+				D7BD77F926B3E4E10026E433 /* SecondCell.swift */,
+				D7BD77FA26B3E4E10026E433 /* SecondCell.xib */,
+				D7BD77FD26B3E4EF0026E433 /* ThirdCell.swift */,
+				D7BD77FE26B3E4EF0026E433 /* ThirdCell.xib */,
+				D7BD780126B3E4FC0026E433 /* FourCell.swift */,
+				D7BD780226B3E4FC0026E433 /* FourCell.xib */,
+				D7BD77EC26B3DB460026E433 /* DataCell.swift */,
+				D7BD77ED26B3DB460026E433 /* DataCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D7BD780526B3F9B50026E433 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77E426B3A7020026E433 /* TransferVC.swift */,
+				D7BD77E526B3A7020026E433 /* TransferVC.xib */,
+				D7BD77E826B3D77C0026E433 /* SecondVC.swift */,
+				D7BD77E926B3D77C0026E433 /* SecondVC.xib */,
+				D7BD77F426B3E4710026E433 /* Cell */,
+			);
+			path = Example2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,18 +353,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7870D8326B1BD810051F827 /* SoftBankCell.xib in Resources */,
+				D7BD77E726B3A7020026E433 /* TransferVC.xib in Resources */,
+				D7BD77EB26B3D77C0026E433 /* SecondVC.xib in Resources */,
 				D75DBD0726AAD7300061330B /* LaunchScreen.storyboard in Resources */,
+				D7BD77FC26B3E4E10026E433 /* SecondCell.xib in Resources */,
 				D7870D8726B1C2A70051F827 /* SoftBankMapCell.xib in Resources */,
 				D7870D8B26B1C2B80051F827 /* MessageCell.xib in Resources */,
 				D7870D6C26B0FE990051F827 /* StorageCell.xib in Resources */,
 				D7056F4026AF0FCF00D2F79E /* TotalPaymentCell.xib in Resources */,
+				D7BD780026B3E4EF0026E433 /* ThirdCell.xib in Resources */,
 				D7870D7F26B1B1F70051F827 /* PromotionCell.xib in Resources */,
 				D75DBD0426AAD7300061330B /* Assets.xcassets in Resources */,
 				D7056F3726AF02D700D2F79E /* HomeVC.xib in Resources */,
+				D7BD77EF26B3DB460026E433 /* DataCell.xib in Resources */,
 				D7870D7426B17DBD0051F827 /* PointTCell.xib in Resources */,
 				D7870D7026B17D900051F827 /* PayPayCell.xib in Resources */,
+				D7BD780426B3E4FC0026E433 /* FourCell.xib in Resources */,
 				D7870D8F26B1C79D0051F827 /* ButtonCell.xib in Resources */,
 				D7870D7826B17DD60051F827 /* VisaCardCell.xib in Resources */,
+				D7BD77F826B3E47E0026E433 /* FirstCell.xib in Resources */,
 				D75DBD0226AAD72F0061330B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,15 +427,23 @@
 			files = (
 				D7870D6F26B17D900051F827 /* PayPayCell.swift in Sources */,
 				D7870D7B26B1A77E0051F827 /* ExtColor.swift in Sources */,
+				D7BD77F326B3DC410026E433 /* ModelData.swift in Sources */,
 				D7870D8626B1C2A70051F827 /* SoftBankMapCell.swift in Sources */,
 				D7870D7326B17DBD0051F827 /* PointTCell.swift in Sources */,
 				D75DBCFF26AAD72F0061330B /* ViewController.swift in Sources */,
 				D7870D7726B17DD60051F827 /* VisaCardCell.swift in Sources */,
 				D7056F3626AF02D700D2F79E /* HomeVC.swift in Sources */,
+				D7BD77EE26B3DB460026E433 /* DataCell.swift in Sources */,
 				D7870D7E26B1B1F70051F827 /* PromotionCell.swift in Sources */,
 				D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */,
+				D7BD77E626B3A7020026E433 /* TransferVC.swift in Sources */,
 				D75DBCFB26AAD72F0061330B /* AppDelegate.swift in Sources */,
+				D7BD77EA26B3D77C0026E433 /* SecondVC.swift in Sources */,
+				D7BD780326B3E4FC0026E433 /* FourCell.swift in Sources */,
+				D7BD77F726B3E47E0026E433 /* FirstCell.swift in Sources */,
 				D7056F3F26AF0FCF00D2F79E /* TotalPaymentCell.swift in Sources */,
+				D7BD77FB26B3E4E10026E433 /* SecondCell.swift in Sources */,
+				D7BD77FF26B3E4EF0026E433 /* ThirdCell.swift in Sources */,
 				D7870D8226B1BD810051F827 /* SoftBankCell.swift in Sources */,
 				D75DBCFD26AAD72F0061330B /* SceneDelegate.swift in Sources */,
 				D7870D6B26B0FE990051F827 /* StorageCell.swift in Sources */,
