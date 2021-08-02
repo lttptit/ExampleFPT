@@ -11,28 +11,14 @@ class SecondCell: UICollectionViewCell {
     
     @IBOutlet weak var collectionData: UICollectionView!
     var arrData: [ModelData] = []
+    var presenter = SecondVCPresenter(service: SecondVCService())
+
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        configData()
+        presenter.delegate = self
+        presenter.getFakeDataCell()
         configUI()
-        // Initialization code
-    }
-    
-    func configData() {
-        arrData.append(ModelData(txt1: "三菱UFJ銀行 ", txt2: "りそな銀行"))
-        arrData.append(ModelData(txt1: "三井住友銀行 ", txt2: "埼玉りそな銀行"))
-        arrData.append(ModelData(txt1: "みずほ銀行 ", txt2: "ゆうちょ銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
-        arrData.append(ModelData(txt1: "○○○○○○○○銀行", txt2: "○○○○○○○○銀行"))
     }
     
     func configUI() {
@@ -73,5 +59,13 @@ extension SecondCell: UICollectionViewDelegate, UICollectionViewDataSource, UICo
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
+    
+}
+extension SecondCell: SecondVCDelegate {
+    func setFakeDataCell(data: [ModelData]) {
+        arrData = data
+        collectionData.reloadData()
+    }
+    
     
 }

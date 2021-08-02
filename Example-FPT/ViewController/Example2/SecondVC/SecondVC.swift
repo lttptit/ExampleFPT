@@ -10,6 +10,10 @@ import UIKit
 class SecondVC: UIViewController {
 
     @IBOutlet weak var collectionData: UICollectionView!
+    let FirstCell = "FirstCell"
+    let SecondCell = "SecondCell"
+    let ThirdCell = "ThirdCell"
+    let FourCell = "FourCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +24,10 @@ class SecondVC: UIViewController {
         collectionData.delegate = self
         collectionData.dataSource = self
         collectionData.showsVerticalScrollIndicator = false
-        collectionData.register(UINib(nibName: "FirstCell", bundle: nil), forCellWithReuseIdentifier: "FirstCell")
-        collectionData.register(UINib(nibName: "SecondCell", bundle: nil), forCellWithReuseIdentifier: "SecondCell")
-        collectionData.register(UINib(nibName: "ThirdCell", bundle: nil), forCellWithReuseIdentifier: "ThirdCell")
-        collectionData.register(UINib(nibName: "FourCell", bundle: nil), forCellWithReuseIdentifier: "FourCell")
+        collectionData.register(UINib(nibName: FirstCell, bundle: nil), forCellWithReuseIdentifier: FirstCell)
+        collectionData.register(UINib(nibName: SecondCell, bundle: nil), forCellWithReuseIdentifier: SecondCell)
+        collectionData.register(UINib(nibName: ThirdCell, bundle: nil), forCellWithReuseIdentifier: ThirdCell)
+        collectionData.register(UINib(nibName: FourCell, bundle: nil), forCellWithReuseIdentifier: FourCell)
     }
 
     @IBAction func close(_ sender: Any) {
@@ -43,16 +47,16 @@ extension SecondVC: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         switch indexPath.section {
         case 0:
-            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: "FirstCell", for: indexPath) as! FirstCell
+            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: FirstCell, for: indexPath) as! FirstCell
             return cell
         case 1:
-            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: "SecondCell", for: indexPath) as! SecondCell
+            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: SecondCell, for: indexPath) as! SecondCell
             return cell
         case 2:
-            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: "ThirdCell", for: indexPath) as! ThirdCell
+            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: ThirdCell, for: indexPath) as! ThirdCell
             return cell
         case 3:
-            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: "FourCell", for: indexPath) as! FourCell
+            let cell = collectionData.dequeueReusableCell(withReuseIdentifier: FourCell, for: indexPath) as! FourCell
             return cell
         default:
             return UICollectionViewCell()

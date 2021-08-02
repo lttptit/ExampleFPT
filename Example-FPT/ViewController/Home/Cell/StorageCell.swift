@@ -6,14 +6,14 @@
 //
 
 import UIKit
-import CircleProgressView
 
 class StorageCell: UICollectionViewCell {
 
     @IBOutlet weak var lblText1: UILabel!
     @IBOutlet weak var lblText2: UILabel!
-    @IBOutlet weak var progressView: CircleProgressView!
     @IBOutlet weak var lblText3: UILabel!
+    @IBOutlet weak var progressView: CircleProgressViewCustom!
+    var circularViewDuration: TimeInterval = 2
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,7 +21,7 @@ class StorageCell: UICollectionViewCell {
     }
     
     func configUI() {
-        progressView.progress = 0.65
+        progressView.progressAnimation(duration: circularViewDuration)
         let txt1 = "利用量のリセットまで \nあ と "
         let txt2 = "88 "
         let txt3 = "日"

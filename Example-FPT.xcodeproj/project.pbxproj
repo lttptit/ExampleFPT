@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,10 @@
 		D7870D8B26B1C2B80051F827 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8926B1C2B80051F827 /* MessageCell.xib */; };
 		D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7870D8C26B1C79D0051F827 /* ButtonCell.swift */; };
 		D7870D8F26B1C79D0051F827 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7870D8D26B1C79D0051F827 /* ButtonCell.xib */; };
+		D7AFAC6226B7944200B21756 /* CircleProgressViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFAC6126B7944200B21756 /* CircleProgressViewCustom.swift */; };
+		D7AFAC6726B7A9C100B21756 /* SecondVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFAC6626B7A9C100B21756 /* SecondVCPresenter.swift */; };
+		D7AFAC6926B7AE8600B21756 /* TransferVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFAC6826B7AE8600B21756 /* TransferVCPresenter.swift */; };
+		D7AFAC6B26B7B3F800B21756 /* SecondVCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AFAC6A26B7B3F800B21756 /* SecondVCService.swift */; };
 		D7BD77E626B3A7020026E433 /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77E426B3A7020026E433 /* TransferVC.swift */; };
 		D7BD77E726B3A7020026E433 /* TransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BD77E526B3A7020026E433 /* TransferVC.xib */; };
 		D7BD77EA26B3D77C0026E433 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD77E826B3D77C0026E433 /* SecondVC.swift */; };
@@ -88,6 +92,10 @@
 		D7870D8926B1C2B80051F827 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		D7870D8C26B1C79D0051F827 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		D7870D8D26B1C79D0051F827 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		D7AFAC6126B7944200B21756 /* CircleProgressViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewCustom.swift; sourceTree = "<group>"; };
+		D7AFAC6626B7A9C100B21756 /* SecondVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCPresenter.swift; sourceTree = "<group>"; };
+		D7AFAC6826B7AE8600B21756 /* TransferVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVCPresenter.swift; sourceTree = "<group>"; };
+		D7AFAC6A26B7B3F800B21756 /* SecondVCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCService.swift; sourceTree = "<group>"; };
 		D7BD77E426B3A7020026E433 /* TransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVC.swift; sourceTree = "<group>"; };
 		D7BD77E526B3A7020026E433 /* TransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferVC.xib; sourceTree = "<group>"; };
 		D7BD77E826B3D77C0026E433 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
@@ -244,8 +252,31 @@
 				D7056F3826AF0D7200D2F79E /* Cell */,
 				D7056F3426AF02D700D2F79E /* HomeVC.swift */,
 				D7056F3526AF02D700D2F79E /* HomeVC.xib */,
+				D7AFAC6126B7944200B21756 /* CircleProgressViewCustom.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D7AFAC6326B7A99100B21756 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77E426B3A7020026E433 /* TransferVC.swift */,
+				D7BD77E526B3A7020026E433 /* TransferVC.xib */,
+				D7AFAC6826B7AE8600B21756 /* TransferVCPresenter.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		D7AFAC6426B7A99E00B21756 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD77F426B3E4710026E433 /* Cell */,
+				D7BD77E826B3D77C0026E433 /* SecondVC.swift */,
+				D7BD77E926B3D77C0026E433 /* SecondVC.xib */,
+				D7AFAC6626B7A9C100B21756 /* SecondVCPresenter.swift */,
+				D7AFAC6A26B7B3F800B21756 /* SecondVCService.swift */,
+			);
+			path = SecondVC;
 			sourceTree = "<group>";
 		};
 		D7BD77F026B3DC2E0026E433 /* Data */ = {
@@ -284,11 +315,8 @@
 		D7BD780526B3F9B50026E433 /* Example2 */ = {
 			isa = PBXGroup;
 			children = (
-				D7BD77E426B3A7020026E433 /* TransferVC.swift */,
-				D7BD77E526B3A7020026E433 /* TransferVC.xib */,
-				D7BD77E826B3D77C0026E433 /* SecondVC.swift */,
-				D7BD77E926B3D77C0026E433 /* SecondVC.xib */,
-				D7BD77F426B3E4710026E433 /* Cell */,
+				D7AFAC6326B7A99100B21756 /* Transfer */,
+				D7AFAC6426B7A99E00B21756 /* SecondVC */,
 			);
 			path = Example2;
 			sourceTree = "<group>";
@@ -304,7 +332,6 @@
 				D75DBCF326AAD72F0061330B /* Sources */,
 				D75DBCF426AAD72F0061330B /* Frameworks */,
 				D75DBCF526AAD72F0061330B /* Resources */,
-				FAA31BF358BB30B007CD0CF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,23 +428,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FAA31BF358BB30B007CD0CF4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example-FPT/Pods-Example-FPT-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -427,14 +437,18 @@
 			files = (
 				D7870D6F26B17D900051F827 /* PayPayCell.swift in Sources */,
 				D7870D7B26B1A77E0051F827 /* ExtColor.swift in Sources */,
+				D7AFAC6B26B7B3F800B21756 /* SecondVCService.swift in Sources */,
+				D7AFAC6926B7AE8600B21756 /* TransferVCPresenter.swift in Sources */,
 				D7BD77F326B3DC410026E433 /* ModelData.swift in Sources */,
 				D7870D8626B1C2A70051F827 /* SoftBankMapCell.swift in Sources */,
 				D7870D7326B17DBD0051F827 /* PointTCell.swift in Sources */,
+				D7AFAC6226B7944200B21756 /* CircleProgressViewCustom.swift in Sources */,
 				D75DBCFF26AAD72F0061330B /* ViewController.swift in Sources */,
 				D7870D7726B17DD60051F827 /* VisaCardCell.swift in Sources */,
 				D7056F3626AF02D700D2F79E /* HomeVC.swift in Sources */,
 				D7BD77EE26B3DB460026E433 /* DataCell.swift in Sources */,
 				D7870D7E26B1B1F70051F827 /* PromotionCell.swift in Sources */,
+				D7AFAC6726B7A9C100B21756 /* SecondVCPresenter.swift in Sources */,
 				D7870D8E26B1C79D0051F827 /* ButtonCell.swift in Sources */,
 				D7BD77E626B3A7020026E433 /* TransferVC.swift in Sources */,
 				D75DBCFB26AAD72F0061330B /* AppDelegate.swift in Sources */,

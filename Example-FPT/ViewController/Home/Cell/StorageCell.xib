@@ -45,7 +45,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nky-E7-raz" customClass="CircleProgressView" customModule="CircleProgressView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nky-E7-raz" customClass="CircleProgressViewCustom" customModule="Example_FPT" customModuleProvider="target">
                                 <rect key="frame" x="36.5" y="20" width="175" height="175.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="残り" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMR-Nn-c9m">
@@ -222,7 +222,7 @@
                 <outlet property="lblText1" destination="228-22-IQZ" id="fNd-cm-Xk5"/>
                 <outlet property="lblText2" destination="D3n-Mk-Oul" id="NR9-Kd-8gU"/>
                 <outlet property="lblText3" destination="sMI-E3-Ufb" id="Nl8-YY-r0j"/>
-                <outlet property="progressView" destination="Nky-E7-raz" id="xeO-aw-IQv"/>
+                <outlet property="progressView" destination="Nky-E7-raz" id="lsk-4E-blG"/>
             </connections>
             <point key="canvasLocation" x="89.855072463768124" y="136.60714285714286"/>
         </collectionViewCell>
